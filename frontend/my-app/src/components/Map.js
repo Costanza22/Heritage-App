@@ -14,7 +14,7 @@ const Map = () => {
   popupAnchor: [0, -38],  
 });
   useEffect(() => {
-    fetch("https://heritage-mapper-back.onrender.com/places")
+    fetch("https://heritage-app.onrender.com/places")
       .then((res) => res.json())
       .then((data) => {
         setPlaces(Array.isArray(data) ? data : []);
@@ -79,3 +79,4 @@ const Map = () => {
 };
 
 export default Map;
+
