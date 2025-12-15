@@ -6,34 +6,43 @@ A aplicação permite consultar pontos históricos armazenados em um banco de da
 
 ![Mapa de Curitiba](https://github.com/user-attachments/assets/177b08c7-3a3d-4396-a07e-925f67218fb0)
 
+## Tecnologias
+
+- **Frontend:** React, React-Leaflet, Leaflet  
+- **Backend:** Node.js, Express  
+- **Banco de dados:** PostgreSQL + PostGIS  
+- **Deploy:** Frontend no Vercel, Backend e banco no Render  
+
+---
 
 ## Funcionalidades
 
-- Exibição de mapa interativo
-- Listagem de locais históricos com marcador no mapa
-- Integração com banco de dados geoespacial (PostGIS)
-- API REST para consulta dos dados
+- Mapa interativo com zoom e navegação  
+- Pontos históricos com **nome, categoria, descrição e imagem**  
+- Backend REST para consulta de dados geoespaciais  
+- Conexão com banco PostgreSQL/PostGIS para armazenamento e consulta de coordenadas  
 
-## Tecnologias utilizadas
-
-### Backend
-- Node.js
-- Express
-- PostgreSQL
-- PostGIS
+---
 
 <img width="1280" height="686" alt="heritage app 2" src="https://github.com/user-attachments/assets/59106696-6c97-4528-af74-6f150295d2d3" />
 
 
-### Frontend
-- React
-- React Leaflet
-- Leaflet
-
 ## Como executar o projeto
 
-### Backend
-```bash
+## Backend
+
 cd backend
+
 npm install
+
 npm run dev
+
+## Frontend
+
+cd frontend
+
+cd my-app
+
+npm install
+
+npm start
