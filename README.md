@@ -46,3 +46,9 @@ cd my-app
 npm install
 
 npm start
+
+## Deploy
+
+Backend: https://heritage-app.onrender.com
+
+Frontend: https://heritage-app.vercel.app
